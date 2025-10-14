@@ -1,6 +1,7 @@
-// 1281 Leetcode ==> https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/
-
 package com.Conditions_Loops;
+
+//1281Leetcode ==> https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/
+
 
 import java.util.Scanner;
 
@@ -23,7 +24,9 @@ public class SubractProductandSum  {
             }
 
             int result = product - sum;
-            System.out.println(result);
-        }
-    }
+            System.out.println("The Diffrence between the Product & Sum of the number " + number + " is: " + result);
+            
+            num.close();
+       }
+}
 
